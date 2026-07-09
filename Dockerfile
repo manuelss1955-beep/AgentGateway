@@ -19,4 +19,4 @@ RUN curl -sL https://agentgateway.dev/install | bash
 ENV PATH="/root/.local/bin:${PATH}"
 
 # Comando por defecto
-CMD ["agentgateway", "start"]
+CMD ["agentgateway"]
